@@ -28,16 +28,88 @@ header nav ul a{
 /*Header Hero Section*/
 header .hero {
     display: flex;
+    position: relative;
+}
+header .hero p {
+    padding: 0vh 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 50vw;
+    text-align: justify;
+}
+header .hero img {
+    padding: 10vh 0vw 10vh 10vw;
+    position: absolute;
+    top: 10vh;
+    left: 50vw;
+    width: 30vw;
+    height: 50vh;
 }
 
 /*Feature Section*/
-
+.feature {
+    background-color: blueviolet;
+}
+.feature h2 {
+    text-align: center;
+    padding-top: 3vh;
+}
+.feature p {
+    text-align: center;
+    padding: 5vh 5vw;
+}
 /*Common Feature Box Styles*/
-
+.feature-box {
+    background-color: aquamarine;
+    display: flex;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+.feature-box div {
+    width: 60vw;
+}
+.feature-box h2 {
+    text-align: center;
+    padding-top: 3vh;
+}
+.feature-box p {
+    text-align: center;
+    padding: 5vh 5vw;
+    text-align: justify;
+}
+.feature-box img {
+    padding: 3vh 10vw;
+    top: 3vh;
+    left: 50vw;
+    width: 10vw;
+    height: 20vh;
+}
 /*Review Section*/
-
+.review h2{
+    text-align: center;
+}
+.review div{
+    display: flex;
+}
 /*Common Review Box Styles*/
-
+.review div section {
+    background-color: rgb(219, 102, 19);
+    padding: 3vh 3vw;
+    margin: 1vh 1vw;
+    width: 50vw;
+}
+.review div section .review-profile {
+    width: 10vw;
+    background-color: aquamarine;
+}
+.review div section .review-name-rate {
+    width: 20vw;
+}
+.review div section div img {
+    width: 1vw;
+}
 /*Demo Section*/
 
 /*Footer Section*/
