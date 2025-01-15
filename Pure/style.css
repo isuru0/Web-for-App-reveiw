@@ -1,0 +1,43 @@
+* {margin: 0;}
+
+/*Header*/
+header {
+    height: 100vh;
+    background-color: aqua;
+}
+
+/*Header Navigation bar*/
+header nav {
+    display: flex;
+    height: 8vh;
+    background-color: brown;
+}
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+}
+header nav ul a{
+    color: black;
+    text-decoration: none;
+    background-color: blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*Header Hero Section*/
+header .hero {
+    display: flex;
+}
+
+/*Feature Section*/
+
+/*Common Feature Box Styles*/
+
+/*Review Section*/
+
+/*Common Review Box Styles*/
+
+/*Demo Section*/
+
+/*Footer Section*/
