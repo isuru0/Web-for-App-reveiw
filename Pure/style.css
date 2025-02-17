@@ -7,10 +7,14 @@ header {
 }
 
 /*Header Navigation bar*/
+header nav img {
+    width: 4vw;
+    margin: 1vh 1vw 1vh 5vw;
+}
 header nav {
     display: flex;
-    height: 8vh;
-    background-color: brown;
+    height: 10vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 29%, rgba(0,133,123,1) 100%);
 }
 header nav ul {
     display: flex;
@@ -18,11 +22,31 @@ header nav ul {
     margin-left: auto;
 }
 header nav ul a{
-    color: black;
+    font-size: 17px;
+    color: #fff;
     text-decoration: none;
-    background-color: blue;
-    margin: 10px;
-    padding: 10px;
+    margin: 15px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    text-decoration: none;
+}
+header nav ul a:hover{
+    color: #fff;
+}
+header nav ul a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #9caad1;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+header nav ul a:hover::before {
+    transform: scaleX(1);
 }
 
 /*Header Hero Section*/
@@ -113,3 +137,19 @@ header .hero img {
 /*Demo Section*/
 
 /*Footer Section*/
+.content-footer {
+    background-color: blueviolet;
+    display: flex;
+}
+
+.content-footer div {
+    width: 25vw;
+}
+
+.content-footer div p {
+    color: aliceblue;
+}
+
+.content-footer div ul li {
+    list-style-type: none;
+}
