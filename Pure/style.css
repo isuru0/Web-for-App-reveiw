@@ -40,6 +40,7 @@ header nav ul a{
 }
 header nav ul a:hover{
     color: #fff;
+    text-shadow: 0px 0px 1.5px #fff;;
 }
 header nav ul a::before {
     content: "";
@@ -97,45 +98,123 @@ header .hero img {
 
 /*Feature Section*/
 .feature {
-    background-color: blueviolet;
+    background-color: #fff;
+    height: 30vh;
 }
 .feature h2 {
     text-align: center;
     padding-top: 3vh;
+    font-size: 28px;
 }
 .feature p {
     text-align: center;
     padding: 5vh 5vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /*Common Feature Box Styles*/
-.feature-box {
-    background-color: aquamarine;
+.feature-box-1 {
+    background: linear-gradient(90deg, rgb(0, 6, 63) 0%, rgb(2, 8, 62) 10%, rgba(0,133,123,1) 100%);
     display: flex;
     text-align: center;
-    margin-bottom: 1vh;
+    height: 40vh;
+    border-radius: 30px;
+    margin: 0 auto 1vh auto;
+    width: 98%;
 }
-.feature-box div {
+.feature-box-1 div {
     width: 60vw;
 }
-.feature-box h2 {
+.feature-box-1 h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
     text-align: center;
     padding-top: 3vh;
+    color: #fff;
+    height: 25%;
+    font-size: 28px;
 }
-.feature-box p {
+.feature-box-1 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    font-size: 16px;
     text-align: center;
     padding: 5vh 5vw;
-    text-align: justify;
+    text-align: center;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.feature-box img {
-    padding: 3vh 10vw;
-    top: 3vh;
+.feature-box-1 img {
+    padding: 5vh 10vw;
+    top: 4vh;
     left: 50vw;
-    width: 10vw;
-    height: 20vh;
+    width: 15vw;
+    height: 30vh;
+}
+#feature_image_share {
+    padding: 6vh 10vw;
+    width: 12vw;
+    height: 28vh;
+}
+.feature-box-2 {
+    background: linear-gradient(270deg, rgb(0, 6, 63) 0%, rgb(2, 8, 62) 10%, rgba(0,133,123,1) 100%);
+    display: flex;
+    text-align: center;
+    margin-bottom: 0.2vh;
+    height: 40vh;
+    border-radius: 30px;
+    margin: 0 auto 1vh auto;
+    width: 98%;
+}
+.feature-box-2 div {
+    width: 60vw;
+}
+.feature-box-2 h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    text-align: center;
+    padding-top: 3vh;
+    color: #fff;
+    height: 25%;
+    font-size: 28px;
+}
+.feature-box-2 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    font-size: 16px;
+    text-align: center;
+    padding: 5vh 5vw;
+    text-align: center;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.feature-box-2 img {
+    padding: 5vh 10vw;
+    top: 4vh;
+    left: 50vw;
+    width: 15vw;
+    height: 30vh;
 }
 /*Review Section*/
-.review h2{
+.review {
+    background-color: #fff;
+}
+.review h2 {
     text-align: center;
+    padding-top: 3vh;
+    font-size: 28px;
+}
+.review p {
+    text-align: center;
+    padding: 5vh 5vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .review div{
     display: flex;
