@@ -225,6 +225,7 @@ header .hero img {
     padding: 3vh 3vw;
     margin: 1vh 1vw;
     width: 50vw;
+    height: 80vh;
 }
 .review div section .review-profile {
     width: 10vw;
@@ -232,6 +233,7 @@ header .hero img {
 }
 .review div section .review-name-rate {
     width: 20vw;
+    height: 5vh;
 }
 .review div section div img {
     width: 1vw;
