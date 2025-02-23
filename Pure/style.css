@@ -216,27 +216,53 @@ header .hero img {
     padding: 5vh 5vw;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.review div{
+.review .review-main-box{
     display: flex;
+    text-align: center;
+    width: 90vw;
+    overflow-x: scroll;
+    margin: auto;
 }
 /*Common Review Box Styles*/
 .review div section {
-    background-color: rgb(219, 102, 19);
-    padding: 3vh 3vw;
-    margin: 1vh 1vw;
-    width: 50vw;
-    height: 80vh;
+    background: linear-gradient(360deg, rgb(0, 6, 63) 0%, rgb(2, 8, 62) 10%, rgba(0,133,123,1) 100%);
+    padding: 3vh 1vw;
+    margin: 1vh 1.5vw;
+    width: 25vw;
+    height: 52vh;
+    border-radius: 20px;
 }
 .review div section .review-profile {
     width: 10vw;
-    background-color: aquamarine;
+    background-color: rgb(247, 255, 252);
+    margin: auto;
+    align-items: center;
 }
 .review div section .review-name-rate {
-    width: 20vw;
+    width: 23vw;
     height: 5vh;
 }
-.review div section div img {
-    width: 1vw;
+.review div section .review-name-rate div img {
+    width: 2vw;
+}
+.review div section .review-name-rate .review-name-rate-name {
+    color: #fff;
+    padding: 1vh 0;
+    margin-right: 0vw;
+    font-size: 18px;
+    width: 10vw;
+}
+.review div section .review-date{
+    color: #fff;
+    text-align: left;
+    padding: 1vh;
+    font-size: 12px;
+}
+.review div section .review-paragraph{
+    width: 15vw;
+    padding-top: 1vh;
+    margin: auto;
+    color: #fff;
 }
 /*Demo Section*/
 
