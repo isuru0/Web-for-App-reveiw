@@ -221,7 +221,8 @@ header .hero img {
     text-align: center;
     width: 90vw;
     overflow-x: scroll;
-    margin: auto;
+    margin: 1vh auto 2vh;
+
 }
 /*Common Review Box Styles*/
 .review div section {
@@ -239,11 +240,14 @@ header .hero img {
     align-items: center;
 }
 .review div section .review-name-rate {
-    width: 23vw;
+    width: 25vw;
     height: 5vh;
+    display: flex;
 }
 .review div section .review-name-rate div img {
     width: 2vw;
+    background-color: rgb(0, 197, 108);
+    margin-top: 1vh;
 }
 .review div section .review-name-rate .review-name-rate-name {
     color: #fff;
@@ -268,18 +272,63 @@ header .hero img {
 
 /*Footer Section*/
 .content-footer {
-    background-color: blueviolet;
+    background: linear-gradient(360deg, rgb(0, 6, 63) 0%, rgb(2, 8, 62) 100%);
     display: flex;
 }
 
 .content-footer div {
     width: 25vw;
+    margin-bottom: 3vh;
 }
 
-.content-footer div p {
+.content-footer div h3 {
     color: aliceblue;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    margin: 2vh;
+    font-size: 18px;
 }
 
 .content-footer div ul li {
     list-style-type: none;
+    color: #fff;
+}
+
+.content-footer div ul .footer-about-ln {
+    display: flex;
+    padding: 0 4.5vw;
+}
+.content-footer div ul .footer-about-logo{
+    width: 5vw;
+}
+.content-footer div ul .footer-about-logo-name{
+    color: #fff;
+    font-size: 30px;
+    padding: 2.5vh 0vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content-footer div ul .footer-about-normalTxt {
+    text-align: center;
+    margin-left: -40px;
+}
+
+.content-footer div .footer-ql li{
+    text-align: center;
+    margin-left: -40px;
+    padding: 0.5vh 0;
+}
+.content-footer div .footer-ql li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.content-footer div .footer-contact li{
+    text-align: center;
+    margin-left: -40px;
+    padding: 0.5vh 0;
+}
+.content-footer div .footer-contact li a{
+    text-decoration: none;
+    color: #fff;
 }
