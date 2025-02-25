@@ -3,7 +3,7 @@
 /*Header*/
 header {
     height: 100vh;
-    background: linear-gradient(180deg, rgb(0, 6, 59) 0%, rgb(0, 6, 59) 29%, rgba(0,133,123,1) 100%);
+    background: linear-gradient(180deg, rgb(0, 6, 59) 0%, rgb(0, 6, 59) 29%, rgb(0, 212, 194) 100%);
 }
 
 /*Header Navigation bar*/
@@ -113,7 +113,7 @@ header .hero img {
 }
 /*Common Feature Box Styles*/
 .feature-box-1 {
-    background: linear-gradient(90deg, rgb(0, 6, 63) 0%, rgb(2, 8, 62) 10%, rgba(0,133,123,1) 100%);
+    background: linear-gradient(90deg, rgb(0, 6, 63) 0%, rgb(2, 8, 62) 10%, rgb(0, 212, 194) 100%);
     display: flex;
     text-align: center;
     height: 40vh;
@@ -160,7 +160,7 @@ header .hero img {
     height: 28vh;
 }
 .feature-box-2 {
-    background: linear-gradient(270deg, rgb(0, 6, 63) 0%, rgb(2, 8, 62) 10%, rgba(0,133,123,1) 100%);
+    background: linear-gradient(270deg, rgb(0, 6, 63) 0%, rgb(2, 8, 62) 10%, rgb(0, 212, 194) 100%);
     display: flex;
     text-align: center;
     margin-bottom: 0.2vh;
@@ -226,7 +226,7 @@ header .hero img {
 }
 /*Common Review Box Styles*/
 .review div section {
-    background: linear-gradient(360deg, rgb(0, 6, 63) 0%, rgb(2, 8, 62) 10%, rgba(0,133,123,1) 100%);
+    background: linear-gradient(360deg, rgb(0, 6, 63) 0%, rgb(2, 8, 62) 10%, rgb(0, 186, 171) 100%);
     padding: 3vh 1vw;
     margin: 1vh 1.5vw;
     width: 25vw;
@@ -272,7 +272,7 @@ header .hero img {
 
 /*Footer Section*/
 .content-footer {
-    background: linear-gradient(360deg, rgb(0, 6, 63) 0%, rgb(2, 8, 62) 100%);
+    background: linear-gradient(180deg, rgb(0, 6, 63) 0%, rgb(0, 101, 135) 100%);
     display: flex;
 }
 
@@ -331,4 +331,14 @@ header .hero img {
 .content-footer div .footer-contact li a{
     text-decoration: none;
     color: #fff;
+}
+
+/*Copyright Section*/
+.copyright{
+    background-color: #fff;
+    padding: 2vh;
+}
+.copyright p{
+    text-align: center;
+    font-size: 14px;
 }
