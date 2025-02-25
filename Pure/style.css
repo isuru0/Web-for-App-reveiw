@@ -202,6 +202,39 @@ header .hero img {
     width: 15vw;
     height: 30vh;
 }
+
+/*Price Section*/
+.plans-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.plan-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.plan-card.popular {
+    border: 2px solid #007bff;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+
 /*Review Section*/
 .review {
     background-color: #fff;
