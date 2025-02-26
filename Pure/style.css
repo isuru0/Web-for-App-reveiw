@@ -204,11 +204,23 @@ header .hero img {
 }
 
 /*Price Section*/
+.price-container h1 {
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 28px;
+}
+.price-container h2 {
+    text-align: center;
+    margin: 1vh;
+}
 .plans-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    gap: 1rem;
     padding: 2rem 0;
+    width: 80vw;
+    margin: auto;
+    height: 40vh;
 }
 
 .plan-card {
@@ -216,9 +228,10 @@ header .hero img {
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    
 }
 
-.plan-card.popular {
+.plan-card:hover {
     border: 2px solid #007bff;
 }
 
