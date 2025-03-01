@@ -1,18 +1,107 @@
-.team-members {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
+*{margin: 0;}
+
+/*Header Navigation bar*/
+header nav img {
+    width: 4vw;
+    margin: 1vh 1vw 1vh 5vw;
+}
+header nav p {
+    color: #fff;
+    font-size: 30px;
+    padding: 2.5vh 0vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header nav {
+    display: flex;
+    height: 10vh;
+    background: rgb(0, 6, 59) 100%;
+    border-bottom: 1px solid rgb(55, 61, 108);
+}
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header nav ul a{
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    margin: 15px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    text-decoration: none;
+}
+header nav ul a:hover{
+    color: #fff;
+    text-shadow: 0px 0px 1.5px #fff;;
+}
+header nav ul a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #9caad1;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+header nav ul a:hover::before {
+    transform: scaleX(1);
 }
 
-.team-member {
+/*Main*/
+main{
+    height: 80vh;
+}
+
+/*About Content*/
+.container .about-content {
+    margin: 5vh;
     text-align: center;
 }
+.container .about-content h1{
+    padding-top: 5vh;
+}
+.container .about-content p{
+    padding: 2vh;
+}
 
-.team-member img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 1rem;
+/*Team Section*/
+.container .team-section{
+    box-shadow: 0px 0px 20px #e1e0e9;
+    margin: 2vh 5vh;
+    border-radius: 20px;
+}
+.container .team-section h2{
+    text-align: center;
+    padding: 2vh;
+}
+.container .team-section .team-members{
+    display: flex;
+    
+}
+.container .team-section .team-members .team-member{
+    margin: 5vh auto;
+    padding: 5vh;
+    box-shadow: 0px 0px 20px #e1e0e9;
+    border-radius: 20px;
+    text-align: center;
+}
+.container .team-section .team-members .team-member img{
+    width: 10vw;
+    background-color: rgb(247, 255, 252);
+    margin: auto;
+    align-items: center;
+}
+
+.container .team-section .team-members .team-member h3{}
+
+.container .team-section .team-members .team-member p{}
+
+/*Footer*/
+footer {
+    text-align: center;
 }
